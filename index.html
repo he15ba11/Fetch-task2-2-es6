@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Es6 lab day 2</title>
+    <style>
+        .container {
+            width:90%;
+            background-color: #eeeeee;
+            border-radius: 10px;
+            text-align: center;
+            margin: 15px auto;          
+        }
+        .container div{
+            display: inline-block;
+            width:200px;
+            padding:20px;
+            margin: 10px;
+            background-color:rgb(75, 107, 167);
+            color: white;
+            border-radius: 10px;
+            text-align: center;
+            font-family: 'arial';
+        }
+        .container div:hover{
+            cursor: pointer;
+        }
+        ul{
+            width:40%;
+            background-color: #eeeeee;
+            color:brown;
+            margin: 15px auto;
+            font-family: 'arial';
+            border: 1px dashed brown;
+        }
+        ul li:first-child{
+            padding-top: 15px;
+        }
+        ul li:last-child{
+            padding-bottom: 15px;
+        }
+        .active{
+            background-color:brown !important;
+            font-weight: bold !important;
+            border: 2px dashed rgb(75, 107, 167) !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    </div>
+    <ul id="title"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
